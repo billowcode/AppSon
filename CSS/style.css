@@ -1,0 +1,420 @@
+ @font-face {
+    font-family: 'Quicksand';
+    src:url('../fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* =========  Первая секция (Хэдэр) =========*/
+/* Перемещение контента */
+
+.view-page {
+    position: absolute;
+    left: 50%;
+    top: 71rem;
+    background-image: url('../images/scroll.png');
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 0px solid transparent;
+}
+
+a.view-up {
+    position: fixed;
+    bottom: 2%;
+    right: 5%;
+    opacity: .6; 
+}
+
+a.view-up:hover {
+    opacity: 1;
+}
+
+/* Шапка */
+
+.header {
+    background-color: #f5fcfd;
+    background-image: url('../images/bg-header.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    padding-top: 0;
+}
+
+.nav-item {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: medium;
+    color: #a3a6a7;
+    text-transform: uppercase;
+}
+
+.sign_up {
+    margin-left: 53px;
+    margin-right: 140px;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0063dd;
+}
+
+.btn_text {
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* Главная страница */
+
+h1, h2, h3, h4, p,.btn, ul li {
+    font-family: 'Quicksand';
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #929292;
+    line-height: 27px;
+}
+
+.offer_title {
+    color: #333333;
+    padding-top: 131px;
+    padding-bottom: 32px;
+}
+
+.offer_text {
+    padding-bottom: 37px;
+}
+
+.btn_blue {
+    color: #ffffff;
+    font-weight: bold;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0f7bff;
+}
+
+.btn_white {
+    color: #0f7bff;
+    font-weight: bold;
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px solid #0f7bff;
+}
+
+.device {
+    margin-top: 80px;
+}
+
+/* =========  Вторая секция (Фичи) ==========*/
+h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.features {
+    background-color: #f5fcfd;
+    padding-top: 165px;
+    padding-bottom: 180px;
+}
+
+.feature_item {
+    background-image: url('../images/bg-ftrs.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.feature_title {
+    color: #333333;
+    padding-top: 30px;
+    font-weight: 500;
+}
+
+.feature_text {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.img_features {
+    padding-top: 40px;
+}
+
+/* =======  Третья секция (Об AppSon)  ==========*/
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.about-em {
+    padding-top: 226px;
+    padding-left: 96px;
+}
+
+.about-kit {
+    padding-right: 109px;
+    padding-top: 177px;
+}
+
+.about-rm {
+    padding-top: 38px;
+}
+
+/* ========  Четвёртая секция (Как это работает)  ======== */
+
+.how-does-it-works {
+    background-color: #f5fcfd;
+    padding-top: 151px;
+    padding-bottom: 127px;
+}
+
+.how-does-it-works-title {
+    padding-bottom: 39px;
+}
+
+.img_actions {
+    padding-top: 47px;
+    padding-bottom: 30px;
+}
+
+/* ========  Пятая секция (Цены) ======== */
+
+.pricing {
+    background-color: #ffffff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.pricing-title {
+    padding-top: 165px;
+    padding-bottom: 33px;
+}
+
+.pricing-text {
+    padding-bottom: 37px;
+}
+
+.btn-mnth, .btn-yrl {
+    font-weight: 700;
+    width: 165px;
+    height: 50px;
+}
+
+.btn-mnth {
+    color: #ffffff;
+    border-radius: 25px 0 0 25px;
+    background-color: #0f7bff;
+}
+
+.btn-yrl {
+    color: #0f7bff;
+    border-radius: 0 25px 25px 0;
+    border: 2px solid #0f7bff;
+}
+
+.img-pricing {
+    padding-bottom: 29px;
+}
+ .img-line-pricing {
+    padding-top: 29px;
+    padding-bottom: 29px;
+ }
+
+ul, li {
+    list-style: none;
+}
+
+.service {
+    font-size: 16px;
+    font-weight: 400;
+    color: #a3a6a7;
+    margin-right: 40px;
+}
+
+.service_item {
+    padding-top: 27px;
+}
+
+.standard, .premium {
+    box-shadow: 0 0 68px rgba(165, 165, 165, 0.25);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #0f7bff;
+    padding-bottom: 38px;
+}
+
+/* ========  Шестая секция (Отзывы) ======== */
+
+.testimonials {
+    background-color: #f5fcfd;
+    flex-direction: row;
+}
+
+.testimonials-title {
+    padding-top: 130px;
+    padding-left: 127px;
+    padding-bottom: 44px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.twitter-img {
+    width: 17px;
+    height: 13px;
+}
+
+.carousel-inner {
+    padding-left: 127px;
+}
+
+.carousel-item {
+    padding: 40px 30px 20px 30px;
+    width: 360px;
+    height: fit-content;
+    box-shadow: 0 0 25px rgba(165, 165, 165, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* ========  Седьмая секция (Новости)  ======== */
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.news {
+    padding-top: 152px;
+    padding-bottom: 127px;
+}
+
+.latest-news-margin {
+    padding-top: 39px;
+    padding-bottom: 47px;
+}
+
+.img-news {
+    padding-bottom: 40px;
+}
+
+.posts-margin {
+    padding-bottom: 46px;
+}
+
+.img-news-main {
+    padding-bottom: 40px;
+}
+
+/* ===  Восьмая секция (Бесплатное импользование) === */
+
+.free-trial {
+    background-color: #f5fcfd;
+    padding-top: 134px;
+    padding-bottom: 130px;
+}
+
+.ft-title {
+    padding-bottom: 15px;
+}
+
+.btn-free-trial {
+    color: #ffffff;
+    width: 263px;
+    height: 76px;
+    border-radius: 5px;
+    background-color: #0f7bff;
+}
+
+/* ===  Девятая секция (Виджет) === */
+
+.widget {
+    background-color: #0f7bff;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.title-widget{
+    color: #ffffff;
+    padding-bottom: 33px;
+}
+
+.form-control {
+    background-color: #0f7bff;
+    width: 392px;
+    height: 60px;
+    border-radius: 30px 0 0 30px;
+    border: 2px solid #ffffff;
+}
+
+.btn-widget {
+    color: #0f7bff;
+    font-weight: 700;
+    width: 165px;
+    height: 60px;
+    border-radius: 0 30px 30px 0;
+    background-color: #ffffff;
+}
+
+::placeholder {
+    color: #ffffff !important;
+}
+
+/* ===  Десятая секция (Футер) === */
+
+.footer {
+    background-color: #0f7bff;
+    border-top: 1px solid white;
+    padding-top: 41px;
+    padding-bottom: 47px;
+}
+
+.footer-rights {
+    color: #ffffff;    
+}
+
+.footer-item {
+    color: #ffffff;    
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 20px;
+}
+
+.footer-img {
+    padding-right: 5px;
+}
